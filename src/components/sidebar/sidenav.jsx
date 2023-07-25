@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./style.css";
 
 function SideNav() {
@@ -6,20 +7,42 @@ function SideNav() {
       <aside>
         <nav>
           <div className="nav-item">
-            <span>home</span>
-            <i className="fa-solid fa-house"></i>
+            <NavLink
+              to="/"
+              style={({ isActive }) => {
+                return {
+                  color: isActive ? "white" : "",
+                };
+              }}
+            >
+              <span>home</span>
+              <i className="fa-solid fa-house"></i>
+            </NavLink>
           </div>
           <div className="nav-item">
-            <span>Project</span>
-            <i className="fa-solid fa-bars-progress"></i>
+            <NavLink
+              to="/projects"
+              style={({ isActive }) => {
+                return {
+                  color: isActive ? "white" : "",
+                };
+              }}
+            >
+              <span>Project</span>
+              <i className="fa-solid fa-bars-progress"></i>
+            </NavLink>
           </div>
           <div className="nav-item">
-            <span>pendidikan</span>
-            <i className="fa-solid fa-school"></i>
+            <NavLink to="/edu">
+              <span>pendidikan</span>
+              <i className="fa-solid fa-school"></i>
+            </NavLink>
           </div>
           <div className="nav-item">
-            <span>item4</span>
-            <i className="fa-solid fa-house"></i>
+            <NavLink to="/contact">
+              <span>contact</span>
+              <i class="fa-solid fa-address-card"></i>
+            </NavLink>
           </div>
         </nav>
       </aside>
