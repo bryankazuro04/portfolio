@@ -1,8 +1,13 @@
 {
   "name": "portfolio",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "1.0.1",
+  "description": "Portfolio Data",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryankazuro04/portfolio.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
