@@ -1,0 +1,61 @@
+aside {
+  padding: 1rem;
+  padding-right: 0;
+  border-radius: 10px;
+  background-color: rgba(var(--main-color), 0.3);
+  text-transform: capitalize;
+  width: 3rem;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  box-shadow: 1px 0 0.5rem rgb(var(--main-color));
+}
+
+aside nav .nav-item {
+  padding: 0.35rem 0.5rem;
+  font-size: 1.35rem;
+  color: rgb(0, 225, 255);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+aside nav .nav-item:hover {
+  color: salmon;
+}
+
+aside nav .nav-item span {
+  margin-right: 2rem;
+  border-radius: 0.75rem;
+  padding: 0.5rem 0.95rem;
+  background-color: rgb(70, 70, 70);
+  position: relative;
+  box-shadow: 0 0 0.5rem rgb(70, 70, 70);
+  visibility: hidden;
+}
+
+aside nav .nav-item span::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  margin-right: -18px;
+  border-width: 9px;
+  border-style: solid;
+  border-color: transparent transparent transparent rgb(70, 70, 70);
+}
+
+aside nav .nav-item:hover span {
+  visibility: visible !important;
+}
+
+aside nav .nav-item i {
+  width: 32px;
+  height: 32px;
+  aspect-ratio: 1/1;
+  display: inherit;
+  align-items: center;
+  justify-content: center;
+}
