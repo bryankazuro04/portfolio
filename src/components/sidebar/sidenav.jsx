@@ -33,13 +33,27 @@ function SideNav() {
             </NavLink>
           </div>
           <div className="nav-item">
-            <NavLink to="/edu">
+            <NavLink
+              to="/education"
+              style={({ isActive }) => {
+                return {
+                  color: isActive ? "white" : "",
+                };
+              }}
+            >
               <span>pendidikan</span>
               <i className="fa-solid fa-school"></i>
             </NavLink>
           </div>
           <div className="nav-item">
-            <NavLink to="/contact">
+            <NavLink
+              to="/contact"
+              style={({ isActive }) => {
+                return {
+                  color: isActive ? "white" : "",
+                };
+              }}
+            >
               <span>contact</span>
               <i class="fa-solid fa-address-card"></i>
             </NavLink>
