@@ -1,270 +1,47 @@
+import HeaderNav from "../header/header-nav";
+import SideNav from "../sidebar/sidenav";
 import "./style.css";
 
 function Jumbotron() {
   return (
     <>
-      <section>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit laboriosam numquam voluptas
-          facilis molestias expedita? Iure ut, ratione non, eum excepturi ipsa natus facilis explicabo recusandae
-          blanditiis cumque maxime laborum voluptatibus, dolor eaque nisi eligendi dignissimos minima rem consectetur
-          voluptas iusto odio nesciunt. Non, et dolorem reprehenderit nisi quas suscipit quasi dolore reiciendis maiores
-          rerum, nesciunt aliquid, consequuntur temporibus voluptate eligendi? Nisi, dolorem? Quia eius facere at
-          aperiam in dolores consequatur veritatis ad, eligendi fugit aut, quidem ipsum praesentium unde iste ex,
-          asperiores hic aliquid tempore nobis suscipit nihil rerum! Quas asperiores veritatis, iure eaque aperiam cum
-          laboriosam ex.
-        </p>
-      </section>
+      <HeaderNav />
+      <main className="container-width">
+        <section>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quos sequi exercitationem. Aliquam
+            dignissimos fugiat natus provident voluptatum consequuntur doloribus perferendis minima, ipsum delectus illo
+            eveniet unde reiciendis consequatur molestiae temporibus, ab architecto voluptas placeat libero pariatur.
+            Tempora debitis voluptatem vero similique excepturi, molestiae minus esse aut sequi, iste dignissimos
+            deserunt voluptates officiis maxime facere ea labore totam omnis, ex ducimus optio. Voluptatibus omnis
+            deleniti quos molestiae, vitae soluta aperiam ipsa facere iste harum suscipit dolor! Deserunt voluptatem
+            asperiores eligendi ipsam nam amet enim alias itaque, voluptate nemo quo ab eos sit reiciendis autem a
+            sequi. Itaque explicabo tenetur recusandae.
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quos sequi exercitationem. Aliquam
+            dignissimos fugiat natus provident voluptatum consequuntur doloribus perferendis minima, ipsum delectus illo
+            eveniet unde reiciendis consequatur molestiae temporibus, ab architecto voluptas placeat libero pariatur.
+            Tempora debitis voluptatem vero similique excepturi, molestiae minus esse aut sequi, iste dignissimos
+            deserunt voluptates officiis maxime facere ea labore totam omnis, ex ducimus optio. Voluptatibus omnis
+            deleniti quos molestiae, vitae soluta aperiam ipsa facere iste harum suscipit dolor! Deserunt voluptatem
+            asperiores eligendi ipsam nam amet enim alias itaque, voluptate nemo quo ab eos sit reiciendis autem a
+            sequi. Itaque explicabo tenetur recusandae.
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quos sequi exercitationem. Aliquam
+            dignissimos fugiat natus provident voluptatum consequuntur doloribus perferendis minima, ipsum delectus illo
+            eveniet unde reiciendis consequatur molestiae temporibus, ab architecto voluptas placeat libero pariatur.
+            Tempora debitis voluptatem vero similique excepturi, molestiae minus esse aut sequi, iste dignissimos
+            deserunt voluptates officiis maxime facere ea labore totam omnis, ex ducimus optio. Voluptatibus omnis
+            deleniti quos molestiae, vitae soluta aperiam ipsa facere iste harum suscipit dolor! Deserunt voluptatem
+            asperiores eligendi ipsam nam amet enim alias itaque, voluptate nemo quo ab eos sit reiciendis autem a
+            sequi. Itaque explicabo tenetur recusandae.
+          </p>
+        </section>
+      </main>
+
+      <SideNav />
     </>
   );
 }
