@@ -36,6 +36,9 @@ aside nav .nav-item span {
   background-color: rgb(70, 70, 70);
   position: relative;
   box-shadow: 0 0 0.5rem rgb(70, 70, 70);
+  transform: translateX(-3rem);
+  opacity: 0;
+  transition: 350ms ease-out;
   visibility: hidden;
 }
 
@@ -52,6 +55,8 @@ aside nav .nav-item span::after {
 }
 
 aside nav .nav-item:hover span {
+  transform: translateX(0);
+  opacity: 1;
   visibility: visible !important;
 }
 
