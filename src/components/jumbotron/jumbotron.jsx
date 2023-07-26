@@ -1,46 +1,61 @@
 import HeaderNav from "../header/header-nav";
 import SideNav from "../sidebar/sidenav";
 import "./style.css";
+import picture from "../../assets/Seha_Lee.webp";
+import Typewriter from "typewriter-effect";
+import { NavLink } from "react-router-dom";
 
 function Jumbotron() {
   return (
     <>
       <HeaderNav />
-      <main className="container-width">
-        <section>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quos sequi exercitationem. Aliquam
-            dignissimos fugiat natus provident voluptatum consequuntur doloribus perferendis minima, ipsum delectus illo
-            eveniet unde reiciendis consequatur molestiae temporibus, ab architecto voluptas placeat libero pariatur.
-            Tempora debitis voluptatem vero similique excepturi, molestiae minus esse aut sequi, iste dignissimos
-            deserunt voluptates officiis maxime facere ea labore totam omnis, ex ducimus optio. Voluptatibus omnis
-            deleniti quos molestiae, vitae soluta aperiam ipsa facere iste harum suscipit dolor! Deserunt voluptatem
-            asperiores eligendi ipsam nam amet enim alias itaque, voluptate nemo quo ab eos sit reiciendis autem a
-            sequi. Itaque explicabo tenetur recusandae.
-          </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quos sequi exercitationem. Aliquam
-            dignissimos fugiat natus provident voluptatum consequuntur doloribus perferendis minima, ipsum delectus illo
-            eveniet unde reiciendis consequatur molestiae temporibus, ab architecto voluptas placeat libero pariatur.
-            Tempora debitis voluptatem vero similique excepturi, molestiae minus esse aut sequi, iste dignissimos
-            deserunt voluptates officiis maxime facere ea labore totam omnis, ex ducimus optio. Voluptatibus omnis
-            deleniti quos molestiae, vitae soluta aperiam ipsa facere iste harum suscipit dolor! Deserunt voluptatem
-            asperiores eligendi ipsam nam amet enim alias itaque, voluptate nemo quo ab eos sit reiciendis autem a
-            sequi. Itaque explicabo tenetur recusandae.
-          </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quos sequi exercitationem. Aliquam
-            dignissimos fugiat natus provident voluptatum consequuntur doloribus perferendis minima, ipsum delectus illo
-            eveniet unde reiciendis consequatur molestiae temporibus, ab architecto voluptas placeat libero pariatur.
-            Tempora debitis voluptatem vero similique excepturi, molestiae minus esse aut sequi, iste dignissimos
-            deserunt voluptates officiis maxime facere ea labore totam omnis, ex ducimus optio. Voluptatibus omnis
-            deleniti quos molestiae, vitae soluta aperiam ipsa facere iste harum suscipit dolor! Deserunt voluptatem
-            asperiores eligendi ipsam nam amet enim alias itaque, voluptate nemo quo ab eos sit reiciendis autem a
-            sequi. Itaque explicabo tenetur recusandae.
-          </p>
-        </section>
-      </main>
+      <main className="container-width flex">
+        <div className="flex flex-center">
+          <section className="flex-2">
+            <h1 className="font-size-2.5">Hi, I'm Muhammad Alana Fauzan</h1>
 
+            <p data-aos="zoom-in-right" data-aos-duration="100">
+              <small
+                style={{
+                  color: "rgb(var(--main-color))",
+                  textShadow: "0 0 5px rgb(var(--main-color))",
+                }}
+              >
+                as Bryan Kazuro
+              </small>
+            </p>
+
+            <span className="font-size-2">
+              <Typewriter
+                options={{
+                  strings: ["Web Developer", "Music Producer", "Gamer", "Freelancer", "Informatics Student"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </span>
+
+            <p className="mt-1.25 text-justify" style={{ lineHeight: 1.5 }}>
+              Saya seorang mahasiswa informatika dari Universitas Malikussaleh yang berfokus pada pengembangan web.
+              Sebagai web developer, saya memiliki keahlian dalam merancang dan mengembangkan berbagai proyek online
+              yang menarik. Selain itu, saya juga merupakan alumni dari program MSIB Kampus Merdeka X Dicoding, yang
+              telah memberikan berbagai pelatihan dan pengalaman berharga dalam dunia teknologi. Saya sangat antusias
+              untuk berbagi karya-karya saya dan pengalaman saya dalam portofolio ini. Selamat datang dan semoga Anda
+              menikmati melihat proyek-proyek yang telah saya kerjakan!
+            </p>
+
+            <NavLink to="/contact" role="button">
+              <button type="button" className="contact-button mt-1.25">
+                Contact Me
+              </button>
+            </NavLink>
+          </section>
+
+          <picture className="flex-1" data-aos="fade-left" data-aos-duration="500">
+            <img src={picture} alt="Me" className="picture width-100" />
+          </picture>
+        </div>
+      </main>
       <SideNav />
     </>
   );
