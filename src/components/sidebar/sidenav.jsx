@@ -55,7 +55,7 @@ function SideNav() {
               }}
             >
               <span>contact</span>
-              <i class="fa-solid fa-address-card"></i>
+              <i className="fa-solid fa-address-card"></i>
             </NavLink>
           </div>
         </nav>
