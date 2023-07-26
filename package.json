@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Portfolio Data",
   "type": "module",
   "repository": {
@@ -15,9 +15,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.14.2"
+    "react-router-dom": "^6.14.2",
+    "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
