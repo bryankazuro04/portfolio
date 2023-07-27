@@ -4,12 +4,29 @@ aside {
   border-radius: 10px;
   background-color: rgba(var(--main-color), 0.3);
   text-transform: capitalize;
-  width: 3rem;
-  position: fixed;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
+  position: sticky;
+  width: 100%;
   box-shadow: 1px 0 0.5rem rgb(var(--main-color));
+}
+
+@media (width <= 767px) {
+  aside {
+    padding-inline: 0;
+  }
+
+  aside nav {
+    display: flex;
+  }
+}
+
+@media (width >= 768px) {
+  aside {
+    width: 3rem;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
 }
 
 aside nav .nav-item {
@@ -25,21 +42,43 @@ aside nav .nav-item a {
   text-decoration: none;
 }
 
+@media (width <= 767px) {
+  aside nav .nav-item {
+    flex: auto;
+  }
+
+  aside nav .nav-item a {
+    flex-direction: column;
+  }
+}
+
 aside nav .nav-item a:hover {
   color: salmon;
 }
 
 aside nav .nav-item span {
-  margin-right: 2rem;
   border-radius: 0.75rem;
   padding: 0.5rem 0.95rem;
   background-color: rgb(70, 70, 70);
   position: relative;
   box-shadow: 0 0 0.5rem rgb(70, 70, 70);
-  transform: translateX(-3rem);
   opacity: 0;
   transition: 350ms ease-out;
   visibility: hidden;
+}
+
+@media (width <= 767px) {
+  aside nav .nav-item span {
+    position: absolute;
+    transform: translateY(-7rem);
+  }
+}
+
+@media (width >= 768px) {
+  aside nav .nav-item span {
+    margin-right: 2rem;
+    transform: translateX(-3rem);
+  }
 }
 
 aside nav .nav-item span::after {
@@ -54,10 +93,33 @@ aside nav .nav-item span::after {
   border-color: transparent transparent transparent rgb(70, 70, 70);
 }
 
+@media (width <= 767px) {
+  aside nav .nav-item span::after {
+    margin-right: 48px;
+    transform: translateX(-50%);
+    top: 100%;
+    left: 50%;
+    border-width: 11px;
+
+    border-color: rgb(70, 70, 70) transparent transparent transparent;
+  }
+}
+
 aside nav .nav-item:hover span {
-  transform: translateX(0);
   opacity: 1;
   visibility: visible !important;
+}
+
+@media (width <= 767px) {
+  aside nav .nav-item:hover span {
+    transform: translateY(-3rem);
+  }
+}
+
+@media (width >= 768px) {
+  aside nav .nav-item:hover span {
+    transform: translateX(0);
+  }
 }
 
 aside nav .nav-item i {
