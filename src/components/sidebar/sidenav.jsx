@@ -14,6 +14,7 @@ function SideNav() {
                   color: isActive ? "white" : "",
                 };
               }}
+              aria-label="Link menuju halaman page home"
             >
               <span>home</span>
               <i className="fa-solid fa-house"></i>
@@ -27,6 +28,7 @@ function SideNav() {
                   color: isActive ? "white" : "",
                 };
               }}
+              aria-label="Link menuju halaman page project yang pernah dibuat"
             >
               <span>Project</span>
               <i className="fa-solid fa-bars-progress"></i>
@@ -40,6 +42,7 @@ function SideNav() {
                   color: isActive ? "white" : "",
                 };
               }}
+              aria-label="Link menuju halaman page pendidikan yang ditempuh dan skill yang dimiliki"
             >
               <span>pendidikan</span>
               <i className="fa-solid fa-school"></i>
@@ -53,6 +56,7 @@ function SideNav() {
                   color: isActive ? "white" : "",
                 };
               }}
+              aria-label="Link menuju halaman page contact untuk melakukan kerja sama dengan pemilik web"
             >
               <span>contact</span>
               <i className="fa-solid fa-address-card"></i>
