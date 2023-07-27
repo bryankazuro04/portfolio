@@ -1,6 +1,5 @@
 header {
   padding-block: 1rem;
-  position: sticky;
   top: 0;
   z-index: 9;
 }
@@ -8,4 +7,10 @@ header {
 header nav {
   color: rgb(var(--main-color));
   font-size: 1.35rem;
+}
+
+@media (width >= 768px) {
+  .sticky {
+    position: sticky;
+  }
 }
