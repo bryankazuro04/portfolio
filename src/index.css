@@ -98,6 +98,16 @@ main {
   flex: 3;
 }
 
+@media (width >= 576px) {
+  .flex-50 {
+    flex: 1 1 calc(50% - 1rem);
+  }
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
 .flex-center {
   justify-content: center;
   align-items: center;
@@ -141,4 +151,8 @@ main {
 
 .mb-2 {
   margin-bottom: 2rem;
+}
+
+.pb-2 {
+  padding-bottom: 2rem;
 }
