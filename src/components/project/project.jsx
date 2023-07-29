@@ -34,6 +34,9 @@ function Project() {
               <figcaption className={`flip-card-back ${active[1] ? "show" : ""}`}>
                 Submission Project kelas Menjadi Front-End Web Developer Expert Dicoding
                 <p>Teknologi: HTML, CSS, Javascript, Node.js, Webpack</p>
+                <a href="https://alres.vercel.app" target="_blank">
+                  Alres
+                </a>
               </figcaption>
             </figure>
           </div>
