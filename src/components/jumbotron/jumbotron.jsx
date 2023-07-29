@@ -1,7 +1,7 @@
 import HeaderNav from "../header/header-nav";
 import SideNav from "../sidebar/sidenav";
 import "./style.css";
-import picture from "../../assets/Seha_Lee.webp";
+import picture from "../../../public/assets/Seha_Lee.webp";
 import Typewriter from "typewriter-effect";
 import { NavLink } from "react-router-dom";
 
