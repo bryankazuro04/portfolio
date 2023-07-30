@@ -28,7 +28,7 @@ function Project() {
       <HeaderNav />
       <main className="container-width">
         <section className="flex flex-wrap gap-1 pb-2">
-          <div className="flip-card flex-50" onClick={() => cardClick(1)}>
+          <div className="flip-card flex-50" data-aos="zoom-in" onClick={() => cardClick(1)}>
             <figure className="flip-card-inner">
               <img src={alres} alt="Alres Project" className="flip-card-front" />
               <figcaption className={`flip-card-back ${active[1] ? "show" : ""}`}>
@@ -38,7 +38,7 @@ function Project() {
             </figure>
           </div>
 
-          <div className="flip-card flex-50" onClick={() => cardClick(2)}>
+          <div className="flip-card flex-50" data-aos="zoom-in" onClick={() => cardClick(2)}>
             <figure className="flip-card-inner">
               <img src={blog} alt="Blog Project" className="flip-card-front" />
               <figcaption className={`flip-card-back ${active[2] ? "show" : ""}`}>
@@ -51,7 +51,7 @@ function Project() {
             </figure>
           </div>
 
-          <div className="flip-card flex-50" onClick={() => cardClick(3)}>
+          <div className="flip-card flex-50" data-aos="zoom-in" onClick={() => cardClick(3)}>
             <figure className="flip-card-inner">
               <img src={bookshelf} alt="Bookshelf Project" className="flip-card-front" />
               <figcaption className={`flip-card-back ${active[3] ? "show" : ""}`}>
@@ -64,7 +64,7 @@ function Project() {
             </figure>
           </div>
 
-          <div className="flip-card flex-50" onClick={() => cardClick(4)}>
+          <div className="flip-card flex-50" data-aos="zoom-in" onClick={() => cardClick(4)}>
             <figure className="flip-card-inner">
               <img src={aratekHome} alt="Aratek Project Homepage" className="flip-card-front" />
               <figcaption className={`flip-card-back ${active[4] ? "show" : ""}`}>
@@ -74,7 +74,7 @@ function Project() {
             </figure>
           </div>
 
-          <div className="flip-card flex-50" onClick={() => cardClick(5)}>
+          <div className="flip-card flex-50" data-aos="zoom-in" onClick={() => cardClick(5)}>
             <figure className="flip-card-inner">
               <img src={aratekDashboard} alt="Aratek Project Dashboard" className="flip-card-front" />
               <figcaption className={`flip-card-back ${active[5] ? "show" : ""}`}>
@@ -84,7 +84,7 @@ function Project() {
             </figure>
           </div>
 
-          <div className="flip-card flex-50" onClick={() => cardClick(6)}>
+          <div className="flip-card flex-50" data-aos="zoom-in" onClick={() => cardClick(6)}>
             <figure className="flip-card-inner">
               <img src={dji} alt="Duta Jaringan Indonesia Project" className="flip-card-front" />
               <figcaption className={`flip-card-back ${active[6] ? "show" : ""}`}>
@@ -94,7 +94,7 @@ function Project() {
             </figure>
           </div>
 
-          <div className="flip-card flex-50" onClick={() => cardClick(7)}>
+          <div className="flip-card flex-50" data-aos="zoom-in" onClick={() => cardClick(7)}>
             <figure className="flip-card-inner">
               <img src={djiRemake} alt="Duta Jaringan Indonesia Remake" className="flip-card-front" />
               <figcaption className={`flip-card-back ${active[7] ? "show" : ""}`}>
@@ -104,7 +104,7 @@ function Project() {
             </figure>
           </div>
 
-          <div className="flip-card flex-50" onClick={() => cardClick(8)}>
+          <div className="flip-card flex-50" data-aos="zoom-in" onClick={() => cardClick(8)}>
             <figure className="flip-card-inner">
               <img src={simasti} alt="Simasti Project" className="flip-card-front" />
               <figcaption className={`flip-card-back ${active[8] ? "show" : ""}`}>
@@ -114,7 +114,7 @@ function Project() {
             </figure>
           </div>
 
-          <div className="flip-card flex-50" onClick={() => cardClick(9)}>
+          <div className="flip-card flex-50" data-aos="zoom-in" onClick={() => cardClick(9)}>
             <figure className="flip-card-inner">
               <img src={barcamp} alt="Barcamp Project" className="flip-card-front" />
               <figcaption className={`flip-card-back ${active[9] ? "show" : ""}`}>
@@ -127,7 +127,7 @@ function Project() {
             </figure>
           </div>
 
-          <div className="flip-card flex-50" onClick={() => cardClick(10)}>
+          <div className="flip-card flex-50" data-aos="zoom-in" onClick={() => cardClick(10)}>
             <figure className="flip-card-inner">
               <img src={portalRemake} alt="Portal Akademik Unimal Remake" className="flip-card-front" />
               <figcaption className={`flip-card-back ${active[10] ? "show" : ""}`}>
