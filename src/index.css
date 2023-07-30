@@ -104,6 +104,10 @@ main {
   }
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .gap-1 {
   gap: 1rem;
 }
