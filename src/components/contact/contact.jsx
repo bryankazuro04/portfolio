@@ -25,14 +25,36 @@ const Contact = () => {
           Contact Me
         </h1>
         <div className="flex">
-          <div className="flex flex-center flex-col flex-1" data-aos="fade-right">
-            <div className="socialMedia">
-              <div className="socialMedia-github">Github</div>
-              <div className="socialMedia-linkedin">LinkedIn</div>
-              <div className="socialMedia-instagram">Instagram</div>
+          <div className="flex flex-col flex-1 gap-1" data-aos="fade-right">
+            <div className="socialMedia flex gap-1">
+              <a href="https://github.com/bryankazuro04" className="socialMedia-github" target="_blank">
+                <i className="fa-brands fa-github"></i>
+              </a>
+
+              <a href="https://linkedin.com/in/muhammad-alana-fauzan" className="socialMedia-linkedin" target="_blank">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+
+              <a href="https://instagram.com/bryan.kazuro" className="socialMedia-instagram" target="_blank">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
             </div>
-            <div className="telp">Telepon</div>
-            <div className="mail">E-Mail</div>
+
+            <div className="telp flex gap-1" style={{ alignItems: "center" }}>
+              <i className="fa-solid fa-phone"></i>
+              <span className="flex flex-col">
+                <span>Whatsapp/Telp.</span>
+                <span>+62-821-1976-0841</span>
+              </span>
+            </div>
+
+            <div className="mail flex gap-1" style={{ alignItems: "center" }}>
+              <i className="fa-regular fa-envelope"></i>
+              <span className="flex flex-col">
+                <span>E-Mail</span>
+                <span>mhdalana211201@gmail.com</span>
+              </span>
+            </div>
           </div>
           <form
             action={`mailto:mhdalana211201@gmail.com?subject=${input["subject"]}&body=${input["message"]}`}

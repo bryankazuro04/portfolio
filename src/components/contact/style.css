@@ -110,3 +110,20 @@
 .inputbox :is(input, textarea):is(:valid, :focus) ~ i {
   height: 100%;
 }
+
+.socialMedia {
+  font-size: 2rem;
+
+  & a {
+    color: #fff;
+    transition: 350ms;
+
+    &:hover {
+      color: coral;
+    }
+  }
+}
+
+:is(.telp, .mail) {
+  font-size: 1.25rem;
+}
