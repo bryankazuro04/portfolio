@@ -18,9 +18,14 @@ const Contact = () => {
       <HeaderNav />
 
       <main className="container-width">
-        <h1 style={{ marginBlock: "3rem 4rem", textAlign: "center", color: "rgb(var(--main-color))" }}>Contact Me</h1>
+        <h1
+          style={{ marginBlock: "3rem 4rem", textAlign: "center", color: "rgb(var(--main-color))" }}
+          data-aos="fade-down"
+        >
+          Contact Me
+        </h1>
         <div className="flex">
-          <div className="flex flex-center flex-col flex-1">
+          <div className="flex flex-center flex-col flex-1" data-aos="fade-right">
             <div className="socialMedia">
               <div className="socialMedia-github">Github</div>
               <div className="socialMedia-linkedin">LinkedIn</div>
@@ -33,6 +38,7 @@ const Contact = () => {
             action={`mailto:mhdalana211201@gmail.com?subject=${input["subject"]}&body=${input["message"]}`}
             method="POST"
             className="flex flex-center flex-col flex-2 width-100 gap-1"
+            data-aos="fade-left"
           >
             <section className="inputbox mb-2">
               <input type="text" name="subject" placeholder="Subject..." onChange={handleChange} required />
