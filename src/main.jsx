@@ -14,12 +14,12 @@ AOS.init({ duration: 500 });
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
-      <Routes>
+      <switch>
         <Route index exact path="/" Component={Jumbotron} />
         <Route exact path="/projects" element={<Project />} />
         <Route exact path="/education" element={<Education />} />
         <Route exact path="/contact" element={<Contact />} />
-      </Routes>
+      </switch>
     </BrowserRouter>
   </React.StrictMode>
 );
