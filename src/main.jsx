@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Jumbotron />} />
+        <Route index exact path="/" Component={Jumbotron} />
         <Route path="/projects" element={<Project />} />
         <Route path="/education" element={<Education />} />
         <Route path="/contact" element={<Contact />} />
