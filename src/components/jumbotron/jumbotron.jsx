@@ -1,7 +1,7 @@
 import HeaderNav from "../header/header-nav";
 import SideNav from "../sidebar/sidenav";
 import "./style.css";
-import picture from "../../../public/assets/Seha_Lee.webp";
+import picture from "/assets/Seha_Lee.webp";
 import Typewriter from "typewriter-effect";
 import { NavLink } from "react-router-dom";
 
@@ -54,7 +54,7 @@ function Jumbotron() {
           </section>
 
           <picture className="flex-1" data-aos="fade-left" data-aos-duration="500">
-            <img src={picture} alt="Me" className="picture width-100" />
+            <img src={picture} alt="Me" className="picture width-100" loading="eager" />
           </picture>
         </div>
       </main>
