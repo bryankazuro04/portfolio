@@ -1,16 +1,16 @@
 import HeaderNav from "../header/header-nav";
 import SideNav from "../sidebar/sidenav";
 import "./style.css";
-import alres from "../../../public/assets/projects-image/Alres.png";
-import blog from "../../../public/assets/projects-image/Bryan-Kazuro-Blog.png";
-import bookshelf from "../../../public/assets/projects-image/Bryan-Kazuro-s-Bookshelf.png";
-import aratekHome from "../../../public/assets/projects-image/Home-Aratek.png";
-import aratekDashboard from "../../../public/assets/projects-image/Dashboard-Aratek.png";
-import dji from "../../../public/assets/projects-image/Duta-Jaringan-Indonesia.png";
-import djiRemake from "../../../public/assets/projects-image/Duta-Jaringan-Clone.png";
-import simasti from "../../../public/assets/projects-image/Home-Simasti.png";
-import barcamp from "../../../public/assets/projects-image/Kazuro-Barcamp.png";
-import portalRemake from "../../../public/assets/projects-image/Portal-Unimal-Clone.png";
+import alres from "/assets/projects-image/Alres.png";
+import blog from "/assets/projects-image/Bryan-Kazuro-Blog.png";
+import bookshelf from "/assets/projects-image/Bryan-Kazuro-s-Bookshelf.png";
+import aratekHome from "/assets/projects-image/Home-Aratek.png";
+import aratekDashboard from "/assets/projects-image/Dashboard-Aratek.png";
+import dji from "/assets/projects-image/Duta-Jaringan-Indonesia.png";
+import djiRemake from "/assets/projects-image/Duta-Jaringan-Clone.png";
+import simasti from "/assets/projects-image/Home-Simasti.png";
+import barcamp from "/assets/projects-image/Kazuro-Barcamp.png";
+import portalRemake from "/assets/projects-image/Portal-Unimal-Clone.png";
 import { useState } from "react";
 
 function Project() {
