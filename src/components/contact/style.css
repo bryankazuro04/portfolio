@@ -132,3 +132,13 @@
 :is(.telp, .mail) {
   font-size: 1.25rem;
 }
+
+@media (width <= 567px) {
+  .contact-list {
+    align-items: center;
+  }
+
+  .socialMedia {
+    gap: 2.5rem !important;
+  }
+}

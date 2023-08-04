@@ -25,7 +25,11 @@ const Contact = () => {
           Contact Me
         </h1>
         <div className="flex flex-wrap-reverse">
-          <div className="flex flex-col flex-1 gap-1" style={{ paddingBottom: "2rem" }} data-aos="fade-right">
+          <div
+            className="flex flex-col flex-1 gap-1 contact-list"
+            style={{ paddingBottom: "2rem" }}
+            data-aos="fade-right"
+          >
             <div className="socialMedia flex gap-1">
               <a href="https://github.com/bryankazuro04" className="socialMedia-github" target="_blank">
                 <i className="fa-brands fa-github"></i>
@@ -40,20 +44,22 @@ const Contact = () => {
               </a>
             </div>
 
-            <div className="telp flex gap-1" style={{ alignItems: "center" }}>
-              <i className="fa-solid fa-phone"></i>
-              <span className="flex flex-col">
-                <span>Whatsapp/Telp.</span>
-                <span>+62-821-1976-0841</span>
-              </span>
-            </div>
+            <div className="flex flex-col gap-1">
+              <div className="telp flex gap-1" style={{ alignItems: "center" }}>
+                <i className="fa-solid fa-phone"></i>
+                <span className="flex flex-col">
+                  <span>Whatsapp/Telp.</span>
+                  <span>+62-821-1976-0841</span>
+                </span>
+              </div>
 
-            <div className="mail flex gap-1" style={{ alignItems: "center" }}>
-              <i className="fa-regular fa-envelope"></i>
-              <span className="flex flex-col">
-                <span>E-Mail</span>
-                <span>mhdalana211201@gmail.com</span>
-              </span>
+              <div className="mail flex gap-1" style={{ alignItems: "center" }}>
+                <i className="fa-regular fa-envelope"></i>
+                <span className="flex flex-col">
+                  <span>E-Mail</span>
+                  <span>mhdalana211201@gmail.com</span>
+                </span>
+              </div>
             </div>
           </div>
           <form
