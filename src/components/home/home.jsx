@@ -5,7 +5,7 @@ import picture from "/assets/Seha_Lee.webp";
 import Typewriter from "typewriter-effect";
 import { NavLink } from "react-router-dom";
 
-function Jumbotron() {
+function Home() {
   return (
     <>
       <HeaderNav />
@@ -63,4 +63,4 @@ function Jumbotron() {
   );
 }
 
-export default Jumbotron;
+export default Home;
