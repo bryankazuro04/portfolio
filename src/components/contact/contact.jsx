@@ -24,8 +24,8 @@ const Contact = () => {
         >
           Contact Me
         </h1>
-        <div className="flex">
-          <div className="flex flex-col flex-1 gap-1" data-aos="fade-right">
+        <div className="flex flex-wrap-reverse">
+          <div className="flex flex-col flex-1 gap-1" style={{ paddingBottom: "2rem" }} data-aos="fade-right">
             <div className="socialMedia flex gap-1">
               <a href="https://github.com/bryankazuro04" className="socialMedia-github" target="_blank">
                 <i className="fa-brands fa-github"></i>
