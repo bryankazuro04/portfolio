@@ -44,7 +44,7 @@ function SideNav() {
               }}
               aria-label="Link menuju halaman page pendidikan yang ditempuh dan skill yang dimiliki"
             >
-              <span>pendidikan</span>
+              <span>Skills</span>
               <i className="fa-solid fa-school"></i>
             </NavLink>
           </div>
