@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import "./loader.css";
 import Home from "./components/home/home";
 import Project from "./components/project/project";
 import { BrowserRouter, Route, Routes } from "react-router-dom";

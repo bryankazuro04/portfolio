@@ -11,8 +11,32 @@
     <title>Bryan Kazuro | Portfolio</title>
   </head>
   <body>
+    <div class="loader-container">
+      <div class="loader">
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+      </div>
+    </div>
     <div id="root"></div>
-    <script src="https://kit.fontawesome.com/a1cf9facd4.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/a1cf9facd4.js"
+      crossorigin="anonymous"
+    ></script>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      window.addEventListener("load", () => {
+        const loaderContainer = document.querySelector(".loader-container");
+        loaderContainer.style.opacity = 0;
+
+        loaderContainer.addEventListener("transitionend", () => {
+          document.body.removeChild(loaderContainer);
+        });
+      });
+    </script>
   </body>
 </html>
