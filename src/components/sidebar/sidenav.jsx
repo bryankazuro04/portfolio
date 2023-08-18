@@ -30,13 +30,13 @@ function SideNav() {
               }}
               aria-label="Link menuju halaman page project yang pernah dibuat"
             >
-              <span>Project</span>
+              <span>Projects</span>
               <i className="fa-solid fa-bars-progress"></i>
             </NavLink>
           </div>
           <div className="nav-item">
             <NavLink
-              to="/education"
+              to="/about"
               style={({ isActive }) => {
                 return {
                   color: isActive ? "white" : "",
@@ -44,8 +44,8 @@ function SideNav() {
               }}
               aria-label="Link menuju halaman page pendidikan yang ditempuh dan skill yang dimiliki"
             >
-              <span>Skills</span>
-              <i className="fa-solid fa-school"></i>
+              <span>About</span>
+              <i className="fa-solid fa-address-card"></i>
             </NavLink>
           </div>
           <div className="nav-item">
@@ -59,7 +59,7 @@ function SideNav() {
               aria-label="Link menuju halaman page contact untuk melakukan kerja sama dengan pemilik web"
             >
               <span>contact</span>
-              <i className="fa-solid fa-address-card"></i>
+              <i className="fa-solid fa-address-book"></i>
             </NavLink>
           </div>
         </nav>
