@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "private": false,
-  "version": "1.5.5",
+  "version": "1.5.6",
   "description": "Portfolio Data",
   "type": "module",
   "repository": {

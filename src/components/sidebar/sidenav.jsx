@@ -59,7 +59,7 @@ function SideNav() {
               aria-label="Link menuju halaman page contact untuk melakukan kerja sama dengan pemilik web"
             >
               <span>contact</span>
-              <i className="fa-solid fa-address-book"></i>
+              <i className="fa-solid fa-envelope"></i>
             </NavLink>
           </div>
         </nav>
