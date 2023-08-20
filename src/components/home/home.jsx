@@ -53,7 +53,7 @@ function Home() {
             </NavLink>
 
             <form className="inline ml-3" action="/assets/files/CV-Muhammad_Alana_Fauzan.pdf" method="get">
-              <button type="submit" className="cv-button">
+              <button type="submit" data-aos="fade-up" className="cv-button">
                 Download CV
               </button>
             </form>
