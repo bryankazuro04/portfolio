@@ -1,6 +1,12 @@
 .picture {
   object-fit: contain;
   aspect-ratio: 1/1;
+  -webkit-mask-image: url(/assets/blob-haikei.png);
+  mask-image: url(/assets/blob-haikei.png);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
 }
 
 .contact-button {
