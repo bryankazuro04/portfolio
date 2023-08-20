@@ -51,6 +51,12 @@ function Home() {
                 Contact Me
               </button>
             </NavLink>
+
+            <form className="inline ml-3" action="/assets/files/CV-Muhammad_Alana_Fauzan.pdf" method="get">
+              <button type="submit" className="cv-button">
+                Download CV
+              </button>
+            </form>
           </section>
 
           <picture className="flex-1" data-aos="fade-left" data-aos-duration="500">
