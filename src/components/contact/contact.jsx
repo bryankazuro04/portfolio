@@ -35,7 +35,7 @@ const Contact = () => {
                 href="https://github.com/bryankazuro04"
                 className="socialMedia-github"
                 target="_blank"
-                rel="noreferrel"
+                rel="noreferrer"
               >
                 <i className="fa-brands fa-github"></i>
               </a>
@@ -44,7 +44,7 @@ const Contact = () => {
                 href="https://linkedin.com/in/muhammad-alana-fauzan"
                 className="socialMedia-linkedin"
                 target="_blank"
-                rel="noreferrel"
+                rel="noreferrer"
               >
                 <i className="fa-brands fa-linkedin"></i>
               </a>
@@ -53,7 +53,7 @@ const Contact = () => {
                 href="https://instagram.com/bryan.kazuro"
                 className="socialMedia-instagram"
                 target="_blank"
-                rel="noreferrel"
+                rel="noreferrer"
               >
                 <i className="fa-brands fa-instagram"></i>
               </a>
