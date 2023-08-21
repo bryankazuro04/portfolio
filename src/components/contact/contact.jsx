@@ -31,15 +31,30 @@ const Contact = () => {
             data-aos="fade-right"
           >
             <div className="socialMedia flex gap-1">
-              <a href="https://github.com/bryankazuro04" className="socialMedia-github" target="_blank">
+              <a
+                href="https://github.com/bryankazuro04"
+                className="socialMedia-github"
+                target="_blank"
+                rel="noreferrel"
+              >
                 <i className="fa-brands fa-github"></i>
               </a>
 
-              <a href="https://linkedin.com/in/muhammad-alana-fauzan" className="socialMedia-linkedin" target="_blank">
+              <a
+                href="https://linkedin.com/in/muhammad-alana-fauzan"
+                className="socialMedia-linkedin"
+                target="_blank"
+                rel="noreferrel"
+              >
                 <i className="fa-brands fa-linkedin"></i>
               </a>
 
-              <a href="https://instagram.com/bryan.kazuro" className="socialMedia-instagram" target="_blank">
+              <a
+                href="https://instagram.com/bryan.kazuro"
+                className="socialMedia-instagram"
+                target="_blank"
+                rel="noreferrel"
+              >
                 <i className="fa-brands fa-instagram"></i>
               </a>
             </div>

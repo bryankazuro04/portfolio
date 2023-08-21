@@ -34,7 +34,7 @@ function Project() {
               <figcaption className={`flip-card-back ${active[1] ? "show" : ""}`}>
                 Submission Project kelas Menjadi Front-End Web Developer Expert Dicoding
                 <p>Teknologi: HTML, CSS, Javascript, Node.js, Webpack</p>
-                <a href="https://alres.vercel.app" target="_blank">
+                <a href="https://alres.vercel.app" target="_blank" rel="noreferrer">
                   Alres
                 </a>
               </figcaption>
@@ -47,7 +47,7 @@ function Project() {
               <figcaption className={`flip-card-back ${active[2] ? "show" : ""}`}>
                 Submission Project kelas Belajar Dasar Pemrograman Web Dicoding
                 <p>Teknologi: HTML, CSS, Javascript</p>
-                <a href="https://blog-bryankazuro.vercel.app" target="_blank">
+                <a href="https://blog-bryankazuro.vercel.app" target="_blank" rel="noreferrer">
                   Blog
                 </a>
               </figcaption>
@@ -60,7 +60,7 @@ function Project() {
               <figcaption className={`flip-card-back ${active[3] ? "show" : ""}`}>
                 Submission Project kelas Belajar Membuat Front-End Web untuk Pemula Dicoding
                 <p>Teknologi: HTML, CSS, Javascript</p>
-                <a href="https://bookshelf-blond.vercel.app" target="_blank">
+                <a href="https://bookshelf-blond.vercel.app" target="_blank" rel="noreferrer">
                   Bookshelf
                 </a>
               </figcaption>
@@ -123,7 +123,7 @@ function Project() {
               <figcaption className={`flip-card-back ${active[9] ? "show" : ""}`}>
                 Submission project kelas Belajar Fundamental Front-End Web Development Dicoding
                 <p>Teknologi: HTML, CSS, Javascript, Node.js, Webpack, API</p>
-                <a href="https://barcamp.vercel.app" target="_blank">
+                <a href="https://barcamp.vercel.app" target="_blank" rel="noreferrer">
                   Barcamp
                 </a>
               </figcaption>
