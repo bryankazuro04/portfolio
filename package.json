@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "private": false,
-  "version": "1.6.2",
+  "version": "1.6.3",
   "description": "Portfolio Data",
   "type": "module",
   "repository": {
@@ -12,7 +12,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "update": "npm update"
   },
   "dependencies": {
     "aos": "^3.0.0-beta.6",
