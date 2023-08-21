@@ -129,6 +129,16 @@
   }
 }
 
+@media (prefers-color-scheme: light) {
+  .socialMedia a {
+    color: #000;
+
+    &:hover {
+      color: aqua;
+    }
+  }
+}
+
 :is(.telp, .mail) {
   font-size: 1.25rem;
 }
