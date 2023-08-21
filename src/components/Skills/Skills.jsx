@@ -45,7 +45,7 @@ const Skills = () => {
         <div className="flex flex-wrap">
           <div className="w-full">
             <div className="md:mx-4">
-              <h3 className="text-3xl text-center text-[#0ff] font-bold mb-8">Skills</h3>
+              <h3 className="text-3xl text-center text-[rgb(var(--main-color))] font-bold mb-8">Skills</h3>
             </div>
           </div>
           {skillData.map((skill, id) => (

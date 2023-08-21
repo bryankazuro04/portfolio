@@ -24,9 +24,9 @@ export default function VerticalTimeline() {
 
   return (
     <>
-      <h1 className="text-[#0ff] text-3xl text-center mt-4">Education & Experience</h1>
+      <h1 className="text-[rgb(var(--main-color))] text-3xl text-center mt-4">Education & Experience</h1>
       <div className="px-5">
-        <div className="relative max-w-xl mx-auto my-16 lg:max-w-3xl before:absolute before:top-0 before:w-1 before:h-full before:left-2 before:bg-[#0ff] lg:before:left-1/2">
+        <div className="relative max-w-xl mx-auto my-16 lg:max-w-3xl before:absolute before:top-0 before:w-1 before:h-full before:left-2 before:bg-[rgb(var(--main-color))] lg:before:left-1/2">
           {data.map((item, index) => (
             <div key={index} className="relative pl-8 mb-12 lg:flex even:flex-row-reverse">
               <div
