@@ -34,9 +34,12 @@ function Project() {
               <figcaption className={`flip-card-back ${active[1] ? "show" : ""}`}>
                 Submission Project kelas Menjadi Front-End Web Developer Expert Dicoding
                 <p>Teknologi: HTML, CSS, Javascript, Node.js, Webpack</p>
-                <a href="https://alres.vercel.app" target="_blank" rel="noreferrer">
-                  Alres
-                </a>
+                <span className="hover:text-[coral] text-lg mt-1 cursor-pointer">
+                  <i className="fa-solid fa-link mr-2" aria-hidden="true"></i>
+                  <a href="https://alres.vercel.app" target="_blank" rel="noreferrer">
+                    Alres
+                  </a>
+                </span>
               </figcaption>
             </figure>
           </div>
@@ -47,9 +50,12 @@ function Project() {
               <figcaption className={`flip-card-back ${active[2] ? "show" : ""}`}>
                 Submission Project kelas Belajar Dasar Pemrograman Web Dicoding
                 <p>Teknologi: HTML, CSS, Javascript</p>
-                <a href="https://blog-bryankazuro.vercel.app" target="_blank" rel="noreferrer">
-                  Blog
-                </a>
+                <span className="hover:text-[coral] text-lg mt-1 cursor-pointer">
+                  <i className="fa-solid fa-link mr-2" aria-hidden="true"></i>
+                  <a href="https://blog-bryankazuro.vercel.app" target="_blank" rel="noreferrer">
+                    Blog
+                  </a>
+                </span>
               </figcaption>
             </figure>
           </div>
@@ -60,9 +66,12 @@ function Project() {
               <figcaption className={`flip-card-back ${active[3] ? "show" : ""}`}>
                 Submission Project kelas Belajar Membuat Front-End Web untuk Pemula Dicoding
                 <p>Teknologi: HTML, CSS, Javascript</p>
-                <a href="https://bookshelf-blond.vercel.app" target="_blank" rel="noreferrer">
-                  Bookshelf
-                </a>
+                <span className="hover:text-[coral] text-lg mt-1 cursor-pointer">
+                  <i className="fa-solid fa-link mr-2" aria-hidden="true"></i>
+                  <a href="https://bookshelf-blond.vercel.app" target="_blank" rel="noreferrer">
+                    Bookshelf
+                  </a>
+                </span>
               </figcaption>
             </figure>
           </div>
@@ -123,9 +132,12 @@ function Project() {
               <figcaption className={`flip-card-back ${active[9] ? "show" : ""}`}>
                 Submission project kelas Belajar Fundamental Front-End Web Development Dicoding
                 <p>Teknologi: HTML, CSS, Javascript, Node.js, Webpack, API</p>
-                <a href="https://barcamp.vercel.app" target="_blank" rel="noreferrer">
-                  Barcamp
-                </a>
+                <span className="hover:text-[coral] text-lg mt-1 cursor-pointer">
+                  <i className="fa-solid fa-link mr-2" aria-hidden="true"></i>
+                  <a href="https://barcamp.vercel.app" target="_blank" rel="noreferrer">
+                    Barcamp
+                  </a>
+                </span>
               </figcaption>
             </figure>
           </div>
