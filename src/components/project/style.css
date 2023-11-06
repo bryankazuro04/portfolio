@@ -15,19 +15,19 @@
   transition: 200ms;
 }
 
-.flip-card-back::before {
-  content: "";
-  position: absolute;
-  border-width: 0.5rem;
-  border-style: solid;
-  border-color: transparent transparent rgb(var(--main-color)) transparent;
-  top: 0;
-  margin-top: -1rem;
-}
-
 @media (width <= 576px) {
   .flip-card-back {
     display: none;
+  }
+
+  .flip-card-back::before {
+    content: "";
+    position: absolute;
+    border-width: 0.5rem;
+    border-style: solid;
+    border-color: transparent transparent rgb(var(--main-color)) transparent;
+    top: 0;
+    margin-top: -1rem;
   }
 
   .show {
