@@ -11,7 +11,18 @@
   border: 1px solid rgb(var(--main-color));
   padding: 1rem;
   font-size: 0.9rem;
+  position: relative;
   transition: 200ms;
+}
+
+.flip-card-back::before {
+  content: "";
+  position: absolute;
+  border-width: 0.5rem;
+  border-style: solid;
+  border-color: transparent transparent rgb(var(--main-color)) transparent;
+  top: 0;
+  margin-top: -1rem;
 }
 
 @media (width <= 576px) {
@@ -26,7 +37,9 @@
 
 .flip-card-front,
 .flip-card-back {
+  margin-top: 1rem;
   border-radius: 0.5rem;
+  padding-top: 1.75rem;
   box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
 }
 
