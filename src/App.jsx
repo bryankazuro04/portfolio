@@ -1,19 +1,26 @@
-import Jumbotron from "./components/jumbotron/jumbotron";
-import Project from "./components/project/project";
+import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Education from "./components/education/education";
+import Home from "./components/home/home";
+import Project from "./components/project/project";
+import About from "./components/about/about";
 import Contact from "./components/contact/contact";
+import HeaderNav from "./components/header/header-nav";
+import SideNav from "./components/sidebar/sidenav";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <HeaderNav />
+
         <Routes>
-          <Route index path="/" element={<Jumbotron />} />
+          <Route path="/" index element={<Home />} />
           <Route path="/projects" element={<Project />} />
-          <Route path="/education" element={<Education />} />
+          <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+
+        <SideNav />
       </BrowserRouter>
     </>
   );

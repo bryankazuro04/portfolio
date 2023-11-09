@@ -1,5 +1,4 @@
-import HeaderNav from "../header/header-nav";
-import SideNav from "../sidebar/sidenav";
+import React, { useState } from "react";
 import "./style.css";
 import alres from "/assets/projects-image/Alres.png";
 import blog from "/assets/projects-image/Bryan-Kazuro-Blog.png";
@@ -11,7 +10,6 @@ import djiRemake from "/assets/projects-image/Duta-Jaringan-Clone.png";
 import simasti from "/assets/projects-image/Home-Simasti.png";
 import barcamp from "/assets/projects-image/Kazuro-Barcamp.png";
 import portalRemake from "/assets/projects-image/Portal-Unimal-Clone.png";
-import { useState } from "react";
 
 function Project() {
   const [active, setActive] = useState("");
@@ -25,7 +23,6 @@ function Project() {
 
   return (
     <>
-      <HeaderNav />
       <main className="container-width">
         <section className="flex flex-wrap gap-1 pb-2">
           <div className="flip-card flex-50" data-aos="zoom-in" onClick={() => cardClick(1)}>
@@ -153,7 +150,6 @@ function Project() {
           </div>
         </section>
       </main>
-      <SideNav />
     </>
   );
 }

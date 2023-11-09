@@ -1,3 +1,5 @@
+import React from "react";
+
 const SkillItem = (props) => {
   const { title, percentage } = props.skill;
   return (

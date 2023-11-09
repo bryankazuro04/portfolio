@@ -1,14 +1,12 @@
-import HeaderNav from "../header/header-nav";
-import SideNav from "../sidebar/sidenav";
+import React from "react";
+import { NavLink } from "react-router-dom";
+import Typewriter from "typewriter-effect";
 import "./style.css";
 import picture from "/assets/Alan.jpeg";
-import Typewriter from "typewriter-effect";
-import { NavLink } from "react-router-dom";
 
 function Home() {
   return (
     <>
-      <HeaderNav />
       <main className="container-width flex">
         <div className="flex flex-center flex-wrap-reverse flex-wrap-md">
           <section className="flex-2-md">
@@ -64,7 +62,6 @@ function Home() {
           </picture>
         </div>
       </main>
-      <SideNav />
     </>
   );
 }

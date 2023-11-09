@@ -1,6 +1,4 @@
-import { useState } from "react";
-import HeaderNav from "../header/header-nav";
-import SideNav from "../sidebar/sidenav";
+import React, { useState } from "react";
 import "./style.css";
 
 const Contact = () => {
@@ -15,8 +13,6 @@ const Contact = () => {
   }
   return (
     <>
-      <HeaderNav />
-
       <main className="container-width">
         <h1
           style={{ marginBlock: "3rem 4rem", textAlign: "center", color: "rgb(var(--main-color))" }}
@@ -112,8 +108,6 @@ const Contact = () => {
           </form>
         </div>
       </main>
-
-      <SideNav />
     </>
   );
 };
