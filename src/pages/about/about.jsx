@@ -1,6 +1,6 @@
 import React from "react";
-import Skills from "../Skills/Skills";
-import VerticalTimeline from "../timeline/timeline";
+import Skills from "../../components/Skills/Skills";
+import VerticalTimeline from "../../components/timeline/timeline";
 
 const About = () => {
   return (
