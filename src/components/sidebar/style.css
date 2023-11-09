@@ -122,9 +122,9 @@ aside nav .nav-item:hover span {
   }
 }
 
-aside nav .nav-item i {
-  width: 32px;
-  height: 32px;
+aside nav .nav-item :is(i, svg) {
+  width: 30px;
+  height: 30px;
   aspect-ratio: 1/1;
   display: inherit;
   align-items: center;

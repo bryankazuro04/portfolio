@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import "./style.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const Contact = () => {
   const [input, setInput] = useState("");
@@ -15,6 +19,7 @@ const Contact = () => {
     <>
       <main className="container-width">
         <h1
+          className="font-size-2.5"
           style={{ marginBlock: "3rem 4rem", textAlign: "center", color: "rgb(var(--main-color))" }}
           data-aos="fade-down"
         >
@@ -33,7 +38,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa-brands fa-github"></i>
+                <FontAwesomeIcon icon={faGithub} />
               </a>
 
               <a
@@ -42,7 +47,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa-brands fa-linkedin"></i>
+                <FontAwesomeIcon icon={faLinkedin} />
               </a>
 
               <a
@@ -51,13 +56,13 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa-brands fa-instagram"></i>
+                <FontAwesomeIcon icon={faInstagram} />
               </a>
             </div>
 
             <div className="flex flex-col gap-1">
               <div className="telp flex gap-1" style={{ alignItems: "center" }}>
-                <i className="fa-solid fa-phone"></i>
+                <FontAwesomeIcon icon={faPhone} />
                 <span className="flex flex-col">
                   <span>Whatsapp/Telp.</span>
                   <span>+62-821-1976-0841</span>
@@ -65,7 +70,7 @@ const Contact = () => {
               </div>
 
               <div className="mail flex gap-1" style={{ alignItems: "center" }}>
-                <i className="fa-regular fa-envelope"></i>
+                <FontAwesomeIcon icon={faEnvelope} />
                 <span className="flex flex-col">
                   <span>E-Mail</span>
                   <span>mhdalana211201@gmail.com</span>

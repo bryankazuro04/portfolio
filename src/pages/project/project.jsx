@@ -10,6 +10,8 @@ import djiRemake from "/assets/projects-image/Duta-Jaringan-Clone.png";
 import simasti from "/assets/projects-image/Home-Simasti.png";
 import barcamp from "/assets/projects-image/Kazuro-Barcamp.png";
 import portalRemake from "/assets/projects-image/Portal-Unimal-Clone.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 function Project() {
   const [active, setActive] = useState("");
@@ -32,8 +34,8 @@ function Project() {
                 Submission Project kelas Menjadi Front-End Web Developer Expert Dicoding
                 <p>Teknologi: HTML, CSS, Javascript, Node.js, Webpack</p>
                 <span className="hover:text-[coral] text-lg mt-1 cursor-pointer">
-                  <i className="fa-solid fa-link mr-2" aria-hidden="true"></i>
-                  <a href="https://alres.vercel.app" target="_blank" rel="noreferrer">
+                  <FontAwesomeIcon icon={faLink} />
+                  <a href="https://alres.vercel.app" className="ml-2" target="_blank" rel="noreferrer">
                     Alres
                   </a>
                 </span>
@@ -48,8 +50,8 @@ function Project() {
                 Submission Project kelas Belajar Dasar Pemrograman Web Dicoding
                 <p>Teknologi: HTML, CSS, Javascript</p>
                 <span className="hover:text-[coral] text-lg mt-1 cursor-pointer">
-                  <i className="fa-solid fa-link mr-2" aria-hidden="true"></i>
-                  <a href="https://blog-bryankazuro.vercel.app" target="_blank" rel="noreferrer">
+                  <FontAwesomeIcon icon={faLink} />
+                  <a href="https://blog-bryankazuro.vercel.app" className="ml-2" target="_blank" rel="noreferrer">
                     Blog
                   </a>
                 </span>
@@ -64,8 +66,8 @@ function Project() {
                 Submission Project kelas Belajar Membuat Front-End Web untuk Pemula Dicoding
                 <p>Teknologi: HTML, CSS, Javascript</p>
                 <span className="hover:text-[coral] text-lg mt-1 cursor-pointer">
-                  <i className="fa-solid fa-link mr-2" aria-hidden="true"></i>
-                  <a href="https://bookshelf-blond.vercel.app" target="_blank" rel="noreferrer">
+                  <FontAwesomeIcon icon={faLink} />
+                  <a href="https://bookshelf-blond.vercel.app" className="ml-2" target="_blank" rel="noreferrer">
                     Bookshelf
                   </a>
                 </span>
@@ -130,8 +132,8 @@ function Project() {
                 Submission project kelas Belajar Fundamental Front-End Web Development Dicoding
                 <p>Teknologi: HTML, CSS, Javascript, Node.js, Webpack, API</p>
                 <span className="hover:text-[coral] text-lg mt-1 cursor-pointer">
-                  <i className="fa-solid fa-link mr-2" aria-hidden="true"></i>
-                  <a href="https://barcamp.vercel.app" target="_blank" rel="noreferrer">
+                  <FontAwesomeIcon icon={faLink} />
+                  <a href="https://barcamp.vercel.app" className="ml-2" target="_blank" rel="noreferrer">
                     Barcamp
                   </a>
                 </span>

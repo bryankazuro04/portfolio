@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./style.css";
+import { faAddressCard, faBarsProgress, faEnvelope, faHouse } from "@fortawesome/free-solid-svg-icons";
 
 function SideNav() {
   return (
@@ -18,9 +20,10 @@ function SideNav() {
               aria-label="Link menuju halaman page home"
             >
               <span>home</span>
-              <i className="fa-solid fa-house"></i>
+              <FontAwesomeIcon icon={faHouse} />
             </NavLink>
           </div>
+
           <div className="nav-item">
             <NavLink
               to="/projects"
@@ -32,9 +35,10 @@ function SideNav() {
               aria-label="Link menuju halaman page project yang pernah dibuat"
             >
               <span>Projects</span>
-              <i className="fa-solid fa-bars-progress"></i>
+              <FontAwesomeIcon icon={faBarsProgress} />
             </NavLink>
           </div>
+
           <div className="nav-item">
             <NavLink
               to="/about"
@@ -46,9 +50,10 @@ function SideNav() {
               aria-label="Link menuju halaman page pendidikan yang ditempuh dan skill yang dimiliki"
             >
               <span>About</span>
-              <i className="fa-solid fa-address-card"></i>
+              <FontAwesomeIcon icon={faAddressCard} />
             </NavLink>
           </div>
+
           <div className="nav-item">
             <NavLink
               to="/contact"
@@ -60,7 +65,7 @@ function SideNav() {
               aria-label="Link menuju halaman page contact untuk melakukan kerja sama dengan pemilik web"
             >
               <span>contact</span>
-              <i className="fa-solid fa-envelope"></i>
+              <FontAwesomeIcon icon={faEnvelope} />
             </NavLink>
           </div>
         </nav>
