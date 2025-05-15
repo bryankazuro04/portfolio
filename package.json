@@ -16,7 +16,11 @@
     "update": "npm update",
     "commit": "cz",
     "prepare": "node .husky/install.mjs",
-    "test": "npx vitest"
+    "test": "npx vitest",
+    "release": "standard-version",
+    "release:patch": "standard-version --release-as patch",
+    "release:minor": "standard-version --release-as minor",
+    "release:major": "standard-version --release-as major"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
