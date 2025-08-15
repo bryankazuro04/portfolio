@@ -1,58 +1,53 @@
-import React from "react";
-import SkillItem from "./SkillItem";
-
-const skillData = [
-  {
-    id: 1,
-    title: "HTML, CSS",
-    percentage: "95%",
-  },
-  {
-    id: 2,
-    title: "Bootstrap 5",
-    percentage: "91%",
-  },
-  {
-    id: 3,
-    title: "TailwindCSS",
-    percentage: "20%",
-  },
-  {
-    id: 4,
-    title: "Javascript",
-    percentage: "67%",
-  },
-  {
-    id: 5,
-    title: "ReactJS",
-    percentage: "5%",
-  },
-  {
-    id: 6,
-    title: "Laravel",
-    percentage: "20%",
-  },
-  {
-    id: 7,
-    title: "Git, Github",
-    percentage: "40%",
-  },
-];
+import {
+  faBootstrap,
+  faCss3Alt,
+  faHtml5,
+  faJsSquare,
+  faLaravel,
+  faNodeJs,
+  faReact,
+} from "@fortawesome/free-brands-svg-icons";
+import { useState } from "react";
 
 const Skills = () => {
+  const [listSkills] = useState([
+    {
+      name: "HTML",
+      icon: faHtml5,
+    },
+    {
+      name: "CSS",
+      icon: faCss3Alt,
+    },
+    {
+      name: "Javascript (ES6+)",
+      icon: faJsSquare,
+    },
+    {
+      name: "Bootstrap",
+      icon: faBootstrap,
+    },
+    {
+      name: "Laravel",
+      icon: faLaravel,
+    },
+    {
+      name: "React.js",
+      icon: faReact,
+    },
+    {
+      name: "Node.js",
+      icon: faNodeJs,
+    },
+  ]);
   return (
     <>
-      <div className="py-10">
-        <div className="flex flex-wrap">
-          <div className="w-full">
-            <div className="md:mx-4">
-              <h3 className="text-3xl text-center text-[rgb(var(--main-color))] font-bold mb-8">Skills</h3>
-            </div>
-          </div>
-          {skillData.map((skill, id) => (
-            <SkillItem skill={skill} key={id} />
-          ))}
-        </div>
+      <div className="pt-4 lg:py-10 gap-3 text-sm grid grid-cols-2">
+        {listSkills.map((skill, index) => (
+          <span key={index} className="before:content-['⋗'] before:mr-2">
+            {skill.name}
+          </span>
+        ))}
       </div>
     </>
   );
