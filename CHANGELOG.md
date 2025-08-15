@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.2](https://github.com/bryankazuro04/portfolio/compare/v3.0.1...v3.0.2) (2025-08-15)
+
+
+### Bug Fixes
+
+* **deps:** prevent Husky install on CI ([9989515](https://github.com/bryankazuro04/portfolio/commit/99895153a6d9fe690e2a9f20905de48ac5fb6f9b))
+
 ### [3.0.1](https://github.com/bryankazuro04/portfolio/compare/v3.0.0...v3.0.1) (2025-08-15)
 
 ## [3.0.0](https://github.com/bryankazuro04/portfolio/compare/v2.0.2...v3.0.0) (2025-08-15)
