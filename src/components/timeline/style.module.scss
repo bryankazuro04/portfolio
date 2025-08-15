@@ -1,0 +1,25 @@
+@import "../../styles/variables";
+
+.timeline {
+  &__title {
+    color: $color-primary-soft;
+  }
+
+  &__body {
+    &::before {
+      background-color: $color-primary;
+    }
+
+    &--point {
+      border-color: $color-primary;
+    }
+
+    &--time {
+      color: $color-primary-soft;
+    }
+
+    &--title {
+      color: rgba($color: $color-primary-soft, $alpha: 0.8);
+    }
+  }
+}
