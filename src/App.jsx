@@ -1,23 +1,39 @@
-import React from "react";
+import { useEffect, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import PointerEffect from "./components/cursor-effect/PointerEffect";
+import Footer from "./components/footer/Footer";
+import HeaderBar from "./components/header/HeaderBar";
+import SideElementLeft from "./components/side-element/left";
+import SideNav from "./components/sidebar-right/sidenav";
 import Home from "./pages/home/home";
-import Project from "./pages/project/project";
-import About from "./pages/about/about";
-import Contact from "./pages/contact/contact";
-import HeaderNav from "./components/header/header-nav";
-import SideNav from "./components/sidebar/sidenav";
 
 function App() {
+  const [isNavOpen, setIsNavOpen] = useState(false);
+
+  const toggleNav = () => {
+    setIsNavOpen((prev) => !prev);
+  };
+
+  useEffect(() => {
+    if (window.innerWidth < 1024) document.body.style.overflow = isNavOpen ? "hidden" : "";
+  }, [isNavOpen]);
+
   return (
     <>
       <BrowserRouter>
-        <HeaderNav />
+        <HeaderBar toggleNav={toggleNav} />
+        <SideNav isNavOpen={isNavOpen} toggleNav={toggleNav} />
 
         <Routes>
           <Route path="/" index element={<Home />} />
         </Routes>
 
-        <SideNav />
+        <SideElementLeft />
+        <Footer />
+
+        {isNavOpen && window.innerWidth < 1024 && <div className="fixed inset-0 bg-black/50 z-40" onClick={toggleNav} />}
+
+        <PointerEffect />
       </BrowserRouter>
     </>
   );
