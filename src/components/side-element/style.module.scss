@@ -1,0 +1,32 @@
+@import "../../styles/variables";
+@import "../../styles/keyframes-animation";
+
+.side__element--left {
+  z-index: 1000;
+
+  &-social-media {
+    .social-media {
+      color: $color-text-muted;
+
+      &:hover {
+        color: $color-accent;
+        animation: shake 300ms ease-in-out;
+
+        > * {
+          box-shadow: 0 0 1rem $color-glow, 0 0 2rem $color-glow;
+        }
+      }
+    }
+
+    @media (width >= 1024px) {
+      &::after {
+        content: "";
+        margin: 1rem auto 0;
+        width: 1px;
+        height: 5rem;
+        background-color: $color-text-muted;
+        display: block;
+      }
+    }
+  }
+}
