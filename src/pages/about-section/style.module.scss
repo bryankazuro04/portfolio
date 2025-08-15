@@ -1,0 +1,81 @@
+@import "../../styles/variables";
+
+.about {
+  &::before {
+    content: "";
+    margin-top: 1.125rem;
+    position: absolute;
+    left: -0.125rem;
+    width: 1px;
+    height: calc(10% + 5rem);
+    background-color: $color-primary;
+  }
+
+  &__title {
+    color: $color-secondary;
+    font-family: $header-font;
+
+    &::before {
+      content: "";
+      margin-right: 1rem;
+      margin-left: -2.125rem;
+      width: 3rem;
+      height: 1px;
+      background-color: $color-primary;
+    }
+
+    &::after {
+      content: "";
+      margin-left: 1rem;
+      width: 9rem;
+      height: 1px;
+      background-color: $color-primary;
+    }
+
+    @media (width >= 1024px) {
+      &::before {
+        width: 5rem;
+      }
+
+      &::after {
+        width: 10rem;
+      }
+    }
+  }
+
+  &__info {
+    &--desc {
+      color: $color-text-muted;
+    }
+
+    &::after {
+      content: "";
+      margin-bottom: -2rem;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: min(20rem, 75%);
+      height: 1px;
+      background-color: $color-primary;
+    }
+  }
+
+  &::after {
+    content: "";
+    margin-bottom: -2rem;
+    border-bottom: 1px solid $color-primary;
+    background-color: $color-primary;
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: calc(10% + 5rem);
+    bottom: 0;
+    right: 0;
+  }
+
+  @media (width >= 1024px) {
+    &::after {
+      margin-bottom: -2rem;
+    }
+  }
+}
