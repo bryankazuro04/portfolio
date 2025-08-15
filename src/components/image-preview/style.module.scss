@@ -1,0 +1,35 @@
+@import "../../styles/variables";
+
+.image__preview {
+  z-index: 1000;
+
+  &--close-btn {
+    all: unset;
+    border-radius: 50%;
+    color: black;
+    background-color: $color-text;
+    font-size: 2em;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+    place-content: center;
+    transition: 300ms;
+
+    &::before {
+      all: unset;
+    }
+
+    &:hover {
+      margin: 0;
+      color: $color-surface;
+      box-shadow: 0 0 1rem $color-text-muted, 0 0 1.5rem $color-text-muted;
+    }
+  }
+
+  &--img {
+    width: calc(100% - 10vw - 5rem);
+  }
+}
