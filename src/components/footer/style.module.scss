@@ -1,0 +1,12 @@
+@import "../../styles/variables";
+
+.footer {
+  margin-top: 1rem;
+  border-top: 1px solid $color-border;
+
+  p {
+    color: $color-text;
+    font-size: 0.75rem;
+    text-align: center;
+  }
+}
