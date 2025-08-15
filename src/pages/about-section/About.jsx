@@ -28,7 +28,7 @@ export default function About() {
             <Skills />
           </p>
           <img
-            src={"/public/assets/images/Alan.jpeg"}
+            src={"./assets/images/Alan.jpeg"}
             alt="Alan"
             className={`about__info-image max-lg:mt-10 rounded-full max-lg:scale-110 max-md:w-full md:max-lg:w-1/2 lg:w-full xl:ml-40`}
           />
