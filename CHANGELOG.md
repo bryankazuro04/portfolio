@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.3](https://github.com/bryankazuro04/portfolio/compare/v3.0.2...v3.0.3) (2025-08-15)
+
+
+### Bug Fixes
+
+* **about picture:** correct image URL path in About section ([c359445](https://github.com/bryankazuro04/portfolio/commit/c3594453e626714ade317f56cdde1e9bc8763409))
+
 ### [3.0.2](https://github.com/bryankazuro04/portfolio/compare/v3.0.1...v3.0.2) (2025-08-15)
 
 
