@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "name": "Alres Restaurant",
+    "description": "A modern restaurant website with an interactive design, created as a submission for the <strong>Becomimg a Front-End Web Developer Expert</strong> class by <span class='highlight'>Dicoding</span>. It features a menu, gallery and a simple ordering system that uses an API.",
+    "tags": ["HTML", "CSS", "Javascript (ES6)", "Node.js", "Webpack"],
+    "image": "Alres.png",
+    "link": "https://alres.vercel.app"
+  },
+  {
+    "id": 2,
+    "name": "Personal Blog",
+    "description": "A simple blog website with a clean and responsive layout. Created as a submission for the <strong>Basic Web Programming</strong> class by <span class='highlight'>Dicoding</span>, displaying static articles using semantic HTML.",
+    "tags": ["HTML", "CSS", "Javascript (ES6)"],
+    "image": "Bryan-Kazuro-Blog.png",
+    "link": "https://blog-bryankazuro.vercel.app"
+  },
+  {
+    "id": 3,
+    "name": "Bookshelf App",
+    "description": "A digital bookshelf app that allows users to add, search and move books between reading statuses. Submitted for <span class='highlight'>Dicoding</span>'s <strong>Beginner Front-End Web</strong> class.",
+    "tags": ["HTML", "CSS", "Javascript (ES6)"],
+    "image": "Bryan-Kazuro-s-Bookshelf.png",
+    "link": "https://bookshelf-blond.vercel.app"
+  },
+  {
+    "id": 4,
+    "name": "Barcamp App",
+    "description": "A drink exploration app that utilizes a REST API to display a list of various types of drinks along with their details. This project was created as part of the <strong>Learn Fundamental Front-End Web Development</strong> class by <span class='highlight'>Dicoding</span>. It focuses on fetching external data using the fetch  API and managing dynamic data on the frontend.",
+    "tags": ["HTML", "CSS", "Javascript (ES6)", "Node.js", "Webpack", "API"],
+    "image": "Kazuro-Barcamp.png",
+    "link": "https://barcamp.vercel.app"
+  },
+  {
+    "id": 5,
+    "name": "Aratek Homepage",
+    "description": "The official homepage of Aratek showcasing the company profile, services, and contact information. Focused on fast loading speed and professional design.",
+    "tags": ["Laravel 9", "Bootstrap 5.3.0 Beta", "JQuery", "DataTables"],
+    "image": "Home-Aratek.png"
+  },
+  {
+    "id": 6,
+    "name": "Aratek Admin Page",
+    "description": "Admin page for Aratek's internal system. Displays user data and content management features. Equipped with search and filter functionality.",
+    "tags": ["Laravel 9", "Bootstrap 5.3.0 Beta", "JQuery", "DataTables"],
+    "image": "Dashboard-Aratek.png"
+  },
+  {
+    "id": 7,
+    "name": "Duta Jaringan Indonesia",
+    "description": "Company profile website for Duta Jaringan Indonesia, complete with service information and project documentation",
+    "tags": ["Codeigniter 4", "PHP", "Bootstrap 5.2"],
+    "image": "Duta-Jaringan-Indonesia.png"
+  },
+  {
+    "id": 8,
+    "name": "Duta Jaringan Indonesia Homepage (Remake)",
+    "description": "A remake version of DJI's homepage to improve the interface and user experience.",
+    "tags": ["HTML", "CSS/SASS"],
+    "image": "Duta-Jaringan-Clone.png"
+  },
+  {
+    "id": 9,
+    "name": "Simasti",
+    "description": "Simasti's internal data management system that allows admins to efficiently manage financial data through a structured UI.",
+    "tags": ["Codeigniter 4", "PHP", "Bootstrap 5.2"],
+    "image": "Home-Simasti.png"
+  },
+  {
+    "id": 10,
+    "name": "UNIMAL Academic Portal",
+    "description": "A redesigned version of the UNIMAL academic portal page with a focus on readability and better data structure.",
+    "tags": ["HTML", "Bootstrap 5.3", "Javascript (ES6)"],
+    "image": "Portal-Unimal-Clone.png"
+  }
+]
