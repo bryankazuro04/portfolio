@@ -1,0 +1,28 @@
+@import "../../styles/variables";
+@import "../../styles/keyframes-animation";
+
+.animation__click {
+  border-radius: 50%;
+  background-color: $color-secondary;
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  transform: translate(-50%, -50%) scale(0);
+  animation: pulse 500ms ease-out forwards;
+  backdrop-filter: blur(2px);
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.cursor__glow {
+  border-radius: 50%;
+  background-color: $color-primary;
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  transform: translate(-50%, -50%);
+  transition: transform 5s ease-out;
+  box-shadow: 0 0 10px $color-primary, 0 0 0.5rem $color-primary, 0 0 1rem $color-primary;
+  pointer-events: none;
+  z-index: 10000;
+}
