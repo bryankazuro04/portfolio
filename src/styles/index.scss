@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./variables";
+@import "./keyframes-animation";
+
+:root {
+  color-scheme: dark light;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  interpolate-size: allow-keywords;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+    --main-color: 250, 128, 114;
+  }
+}
+
+::selection {
+  color: $color-surface;
+  background-color: rgba($color-primary, 0.6);
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-margin: 7rem;
+  // cursor: none;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+body {
+  color: $color-text;
+  background-color: $color-bg;
+  font-family: "EB Garamond", serif;
+  position: relative;
+  min-height: 100%;
+  line-height: 1.5;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  min-height: calc(100vh - 10rem);
+}
+
+section {
+  min-height: 600px;
+}
+
+h1 {
+  font-weight: 700;
+  font-family: $header-font;
+  text-shadow: 0 0 0.1rem $color-accent;
+}
+
+h2,
+h3,
+p {
+  font-family: $paragraph-font;
+  line-height: 1.6;
+}
+
+a,
+nav {
+  font-family: $navigation-font;
+}
+
+button,
+.a-btn {
+  border: 2px solid $color-primary-soft;
+  border-radius: 0.6em;
+  padding: 0.7em 2.7em;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-family: $button-font;
+  font-size: 15px;
+  color: $color-secondary;
+  background: linear-gradient(to right, rgba($color-secondary, 0.1) 1%, transparent 40%, transparent 60%, rgba($color-secondary, 0.1) 100%);
+  position: relative;
+  line-height: 1.4em;
+  transition: all 0.3s linear;
+  overflow: hidden;
+  box-shadow: inset 0 0 10px rgba($color-secondary, 0.4), 0 0 9px 3px rgba($color-secondary, 0.1);
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  &:hover {
+    margin-top: -2px;
+    margin-left: -2px;
+    color: $color-accent;
+    box-shadow: inset 0 0 10px rgba($color-accent, 0.6), 0 0 9px 3px rgba($color-accent, 0.2), 0.5rem 0.5rem 0.75rem rgba($color-accent, 0.5),
+      inset 0 0 0.5rem $color-accent;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: -4em;
+    width: 4em;
+    height: 100%;
+    top: 0;
+    transition: left 0.5s ease-in-out;
+    background: linear-gradient(to right, transparent 1%, rgba($color-accent, 0.1) 40%, rgba($color-accent, 0.1) 60%, transparent 100%);
+  }
+
+  &:hover::before {
+    left: 100%;
+  }
+}
+
+.container {
+  margin-inline: auto;
+  width: clamp(50vw, 100%, 1800px);
+  height: 100%;
+}
+
+.scrolled {
+  margin-top: -5rem;
+}
+
+.highlight {
+  color: $color-accent;
+
+  &.primary {
+    color: $color-secondary;
+  }
+}
