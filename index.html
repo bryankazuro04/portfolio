@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon" />
+
+    <title>Bryan Kazuro | Portfolio</title>
+    <script type="module" crossorigin src="/assets/index-5d75d647.js"></script>
+    <link rel="stylesheet" href="/assets/index-68f3702e.css">
+  </head>
+  <body>
+    <div class="loader-container">
+      <div class="loader">
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+      </div>
+    </div>
+    <div id="root"></div>
+
+    
+    <script>
+      window.addEventListener("load", () => {
+        const loaderContainer = document.querySelector(".loader-container");
+        loaderContainer.style.opacity = 0;
+
+        loaderContainer.addEventListener("transitionend", () => {
+          document.body.removeChild(loaderContainer);
+        });
+      });
+    </script>
+  </body>
+</html>
